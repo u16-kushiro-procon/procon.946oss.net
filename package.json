@@ -1,0 +1,43 @@
+{
+  "name": "procon.946oss.net",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Keisuke Sato",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && next export"
+  },
+  "dependencies": {
+    "next": "^9.0.2",
+    "polished": "^3.4.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-facebook": "^8.0.4",
+    "styled-components": "^4.3.2",
+    "styled-reset": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.6",
+    "@types/react": "^16.8.23",
+    "@types/styled-components": "^4.1.18",
+    "husky": ">=1",
+    "lint-staged": ">=8",
+    "prettier": "1.18.2",
+    "typescript": "^3.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
