@@ -1,9 +1,14 @@
 import Head from "next/head";
 import styled, { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
-import { FacebookProvider, Page } from "react-facebook";
+import { FacebookProvider, Page, CustomChat } from "react-facebook";
 
 // #cf121b
+// #58090d
+// #870e13
+// #b61119
+// #7d7d7d
+// #979797
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -65,6 +70,12 @@ export default ({ title, children }) => {
               hideCover={false}
             />
           </Pad>
+          <CustomChat
+            pageId="104577466864466"
+            themeColor="#cf121b"
+            loggedInGreeting="こんにちは、何か質問があれば気軽にどうぞ！"
+            loggedOutGreeting="こんにちは、何か質問があれば気軽にどうぞ！"
+          />
         </>
       </FacebookProvider>
 
