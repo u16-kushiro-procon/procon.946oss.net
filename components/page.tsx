@@ -60,7 +60,11 @@ export default ({ title, children }) => {
         <h1>U-16 プログラミングコンテスト 釧路大会</h1>
       </Header>
 
-      <FacebookProvider appId="457121605076660" language="ja_JP">
+      <FacebookProvider
+        appId="457121605076660"
+        language="ja_JP"
+        chatSupport={true}
+      >
         <>
           {children}
           <Pad>
