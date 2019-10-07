@@ -21,8 +21,15 @@ export const JumbotronLead = styled.p`
   color: #dbdbdb;
 `;
 
+export const Title = styled.h1`
+  margin: 1rem;
+  font-size: xx-large;
+`;
+
 export const Text = styled.p`
   margin: 1rem;
+  line-height: 1.4;
+  font-size: large;
 `;
 
 export const Contact = styled.div`
@@ -33,14 +40,15 @@ export const Contact = styled.div`
 interface ContactButtonProperties {
   color?: string;
   backgroundColor?: string;
+  size?: string;
 }
 
 export const ContactButton = styled.a`
   display: inline-block;
   border-radius: 8rem;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem 0.5rem;
   padding: 1rem 2rem;
-  font-size: large;
+  font-size: ${(props: ContactButtonProperties) => props.size || "large"};
   font-weight: 600;
   color: ${(props: ContactButtonProperties) => props.color || "#fff"};
   background-color: ${(props: ContactButtonProperties) =>
