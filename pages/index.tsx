@@ -14,16 +14,45 @@ export default () => (
     <Jumbotron>
       <JumbotronHead>2020 第8回大会</JumbotronHead>
       <JumbotronLead>
-        10月25日 (日) オンライン開催
+        10月25日 (日) 13:00〜 オンライン開催
       </JumbotronLead>
     </Jumbotron>
 
     <section>
-      <Title>2020オンライン開催決定</Title>
+      <Title>U-16プログラミングコンテストとは</Title>
       <Text>
-        8/31からオンラインでの講習会の開催を予定しています。詳細決定次第更新予定です。
+        U-16プログラミングコンテストとは、16歳以下(高校1年生まで)を対象としたプログラミングコンテストです。
+      </Text>
+      <Text>
+        CHaser (チェイサー) という対戦型プラットフォーム上で、1 対 1 のプログラム同士の対決を行う「競技部門」と、コンピューターグラフィックスや自作のプログラムなど、自由に作成したデジタル作品を評価する「作品部門」から構成されるコンテストとなります。
       </Text>
     </section>
+    
+    <section>
+      <Title>開催概要</Title>
+      <Text>
+        開催日時：2020/10/25 13:00～(予定)
+      </Text>
+      <Text>
+        開催場所：オンライン開催 (YouTube Live で観戦できる予定です)
+      </Text>
+      <Text>
+        参加費：無料
+      </Text>
+      <Text>
+        対象：2021年4月1日時点で16歳以下となる方
+      </Text>
+    </section>
+    
+    <Contact>
+      <ContactButton
+        href="https://forms.gle/eYHCLx9uNQPEapycA"
+        target="_blank"
+        size="x-large"
+      >
+        参加申し込み
+      </ContactButton>
+    </Contact>
 
     <Contact>
       <ContactButton
