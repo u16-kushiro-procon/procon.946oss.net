@@ -1,33 +1,63 @@
 {
-  "name": "procon.946oss.net",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Keisuke Sato",
-  "license": "MIT",
+  "name": "@946oss/u16procon",
   "private": true,
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "deploy": "next build && next export"
+  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "version": "0.1.0",
+  "author": "Keisuke Sato <riaf@me.com>",
+  "bugs": {
+    "url": "https://github.com/u16-kushiro-procon/procon.946oss.net/issues"
   },
   "dependencies": {
-    "next": "^9.0.2",
-    "polished": "^3.4.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-facebook": "^8.0.4",
-    "styled-components": "^4.3.2",
-    "styled-reset": "^3.0.0"
+    "@theme-ui/presets": "^0.3.0",
+    "gatsby": "^2.24.47",
+    "gatsby-image": "^2.4.16",
+    "gatsby-plugin-feed": "^2.5.11",
+    "gatsby-plugin-google-analytics": "^2.3.13",
+    "gatsby-plugin-manifest": "^2.4.23",
+    "gatsby-plugin-offline": "^3.2.23",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-sharp": "^2.6.27",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-typescript": "^2.4.18",
+    "gatsby-remark-copy-linked-files": "^2.3.12",
+    "gatsby-remark-images": "^3.3.25",
+    "gatsby-remark-line-breaks": "^1.0.0",
+    "gatsby-remark-prismjs": "^3.5.10",
+    "gatsby-remark-responsive-iframe": "^2.4.12",
+    "gatsby-remark-smartypants": "^2.3.10",
+    "gatsby-source-filesystem": "^2.3.24",
+    "gatsby-transformer-remark": "^2.8.28",
+    "gatsby-transformer-sharp": "^2.5.13",
+    "gatsby-transformer-yaml": "^2.4.10",
+    "prismjs": "^1.21.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "theme-ui": "^0.3.1"
   },
   "devDependencies": {
-    "@types/node": "^12.6.6",
-    "@types/react": "^16.8.23",
-    "@types/styled-components": "^4.1.18",
-    "husky": ">=1",
-    "lint-staged": ">=8",
-    "prettier": "1.18.2",
-    "typescript": "^3.5.3"
+    "@types/node": "^14.6.0",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "@types/theme-ui": "^0.3.6",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
+    "prettier": "2.0.5"
+  },
+  "homepage": "https://github.com/u16-kushiro-procon/procon.946oss.net#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "Unlincense",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "husky": {
     "hooks": {
@@ -35,9 +65,6 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{js,jsx,ts,tsx,json,md}": "prettier --write"
   }
 }
