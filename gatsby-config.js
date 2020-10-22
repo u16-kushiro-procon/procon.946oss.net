@@ -10,6 +10,13 @@ module.exports = {
     social: {
       twitter: `946procon`,
     },
+    sponsors: [
+      { name: `（株）オイコス` },
+      { name: `（株）プライムネス` },
+      { name: `（株）山一佐藤紙店` },
+      { name: `トーワ計装（株）` },
+      { name: `濱野販促企画（株）` },
+    ],
   },
   plugins: [
     `gatsby-plugin-typescript`,

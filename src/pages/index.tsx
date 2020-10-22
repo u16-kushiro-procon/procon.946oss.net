@@ -4,6 +4,7 @@ import { Link as GatsbyLink, graphql } from "gatsby"
 
 import About from "../components/about"
 import Staff from "../components/staff"
+import Sponsor from "../components/sponsor"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -57,6 +58,7 @@ const BlogIndex = ({ data, location }) => {
         })}
       </Grid>
 
+      <Sponsor />
       <Staff />
     </Layout>
   )

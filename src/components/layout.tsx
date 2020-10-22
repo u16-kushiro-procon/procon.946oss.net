@@ -47,12 +47,17 @@ const Layout = ({ location, title, children }) => {
           <NavLink href="/#blog" sx={{ flex: "1 1 auto" }}>
             お知らせ
           </NavLink>
+          <NavLink href="/#sponsor" sx={{ flex: "1 1 auto" }}>
+            スポンサー
+          </NavLink>
           <NavLink href="/#staff" sx={{ flex: "1 1 auto" }}>
             実行委員
           </NavLink>
+          {/* 
           <NavLink href="/#about" sx={{ flex: "1 1 auto" }}>
             応募する
           </NavLink>
+          */}
         </Flex>
       </Container>
       <main

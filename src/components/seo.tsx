@@ -16,9 +16,9 @@ const SEO = ({
   meta = [],
   title,
 }: {
-  description: string
-  lang: string
-  meta: unknown[]
+  description?: string
+  lang?: string
+  meta?: unknown[]
   title: string
 }) => {
   const { site } = useStaticQuery(
@@ -67,6 +67,10 @@ const SEO = ({
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:site_name`,
+          content: site.siteMetadata.title,
         },
         {
           name: `twitter:card`,

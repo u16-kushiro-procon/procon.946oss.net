@@ -23,14 +23,9 @@ const Staff = () => {
       <Heading id="staff" as="h2" paddingTop={32} paddingBottom={16}>
         実行委員
       </Heading>
-      <Grid width={[75, null, 180]} gap={16}>
+      <Grid width={[75, null, 228]} gap={16}>
         {staff.map(({ node }) => (
-          <Card
-            key={node.name}
-            sx={{
-              maxWidth: 180,
-            }}
-          >
+          <Card key={node.name} p={3}>
             <Image src={node.picture} sx={{ borderRadius: 256 }} />
             <Text sx={{ fontSize: [2, null, 3], textAlign: "center" }}>
               {node.name}
