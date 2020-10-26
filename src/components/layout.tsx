@@ -67,14 +67,7 @@ const Layout = ({ location, title, children }) => {
           paddingTop: 16,
         }}
       >
-        <Container px={[16, null, 0]}>
-          <Message marginBottom={16}>
-            <Link as={GatsbyLink} to="/2020-hello">
-              [開催決定！] 2020年大会の開催についてはこちらをご覧ください
-            </Link>
-          </Message>
-          {children}
-        </Container>
+        <Container px={[16, null, 0]}>{children}</Container>
       </main>
       <footer
         style={{
