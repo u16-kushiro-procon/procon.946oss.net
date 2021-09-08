@@ -1,0 +1,16 @@
+{
+  "name": "procon.946oss.net",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "16"
+    }
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "dotfiles.repository": "riaf/dotfiles"
+  },
+  "extensions": ["dbaeumer.vscode-eslint", "graphql.vscode-graphql"],
+  "postCreateCommand": "npm ci",
+  "remoteUser": "node"
+}
