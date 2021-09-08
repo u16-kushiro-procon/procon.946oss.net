@@ -17,7 +17,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="2020年大会" />
+      <SEO title="2021年大会" />
       <About />
 
       <Box bg="white" px={[32, null, 48]} py={32} marginY={16}>
@@ -28,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
           「事前講習会」にご参加ください。
         </p>
         <p sx={{ fontWeight: "bold" }}>
-          2020年大会は新型コロナウイルス感染症対策のため、申込者に個別でオンラインでの講習を予定しております。
+          新型コロナウイルス感染症対策のため、申込者に個別でオンラインでの講習を予定しております。
           <br />
           詳しくは、申し込み後の案内をご確認ください。
         </p>

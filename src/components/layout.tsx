@@ -34,7 +34,7 @@ const Layout = ({ location, title, children }) => {
                 mx: [32, null, 0],
               }}
             >
-              2020/10/25 13:00- オンライン開催
+              2021/10/31 オンライン開催
             </Text>
           )}
         </Container>
