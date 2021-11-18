@@ -20,7 +20,7 @@ const Sponsor = () => {
   return (
     <>
       <Heading id="sponsor" as="h2" paddingTop={32} paddingBottom={16}>
-        スポンサー
+        後援・協賛
         <Text sx={{ fontSize: 1, fontWeight: "normal" }}>(順不同)</Text>
       </Heading>
       <Grid width={[180, null, 240]} gap={16} my={4}>

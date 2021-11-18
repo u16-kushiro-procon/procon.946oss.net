@@ -43,7 +43,6 @@ const About = () => {
               参加応募する
             </Button>
           </p>
-          */}
 
           <p>
             <Button
@@ -54,6 +53,7 @@ const About = () => {
               オンライン観戦 (YouTube Live)
             </Button>
           </p>
+          */}
         </Box>
         <Box>
           <Image fluid={data.avatar.childImageSharp.fluid} alt="" />
