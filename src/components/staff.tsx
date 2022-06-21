@@ -27,11 +27,23 @@ const Staff = () => {
         {staff.map(({ node }) => (
           <Card key={node.name} p={3}>
             <Image src={node.picture} sx={{ borderRadius: 256 }} />
-            <Text sx={{ fontSize: [2, null, 3], textAlign: "center" }}>
+            <Text
+              sx={{
+                fontSize: [2, null, 3],
+                textAlign: "center",
+                display: "block",
+              }}
+            >
               {node.name}
             </Text>
             {node.role && (
-              <Text sx={{ fontSize: [0, null, 1], textAlign: "center" }}>
+              <Text
+                sx={{
+                  fontSize: [0, null, 1],
+                  textAlign: "center",
+                  display: "block",
+                }}
+              >
                 {node.role}
               </Text>
             )}

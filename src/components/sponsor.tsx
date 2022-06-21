@@ -21,18 +21,26 @@ const Sponsor = () => {
     <>
       <Heading id="sponsor" as="h2" paddingTop={32} paddingBottom={16}>
         後援・協賛
-        <Text sx={{ fontSize: 1, fontWeight: "normal" }}>(順不同)</Text>
+        <Text sx={{ fontSize: 1, fontWeight: "normal", display: "block" }}>
+          (順不同)
+        </Text>
       </Heading>
       <Grid width={[180, null, 240]} gap={16} my={4}>
         {site.siteMetadata.sponsors.map(({ name }) => (
           <Card key={name}>
-            <Text sx={{ fontSize: [2, null, 3], textAlign: "center" }}>
+            <Text
+              sx={{
+                fontSize: [2, null, 3],
+                textAlign: "center",
+                display: "block",
+              }}
+            >
               {name}
             </Text>
           </Card>
         ))}
       </Grid>
-      <Text sx={{ fontSize: 1 }}>
+      <Text sx={{ fontSize: 1, display: "block" }}>
         U-16プログラミングコンテスト釧路大会は、皆様のご協賛をいただきました。
         実行委員会一同、心より感謝申し上げます。
       </Text>

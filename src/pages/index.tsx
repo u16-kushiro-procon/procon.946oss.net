@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from "react"
+import * as React from "react"
 import { Link as GatsbyLink, graphql } from "gatsby"
 
 import About from "../components/about"
@@ -46,7 +46,7 @@ const BlogIndex = ({ data, location }) => {
               <GatsbyLink to={node.fields.slug}>
                 <Image fluid={img} />
               </GatsbyLink>
-              <Text p={16}>
+              <Text p={16} sx={{ display: "block" }}>
                 <GatsbyLink sx={{ color: `primary` }} to={node.fields.slug}>
                   {title}
                 </GatsbyLink>

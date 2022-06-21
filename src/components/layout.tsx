@@ -32,6 +32,7 @@ const Layout = ({ location, title, children }) => {
                 fontSize: [1, 3, 4],
                 marginTop: [0, null, 16],
                 mx: [32, null, 0],
+                display: "block",
               }}
             >
               2021/10/31 オンライン開催
