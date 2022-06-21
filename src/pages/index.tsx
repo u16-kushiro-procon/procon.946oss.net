@@ -8,7 +8,7 @@ import Sponsor from "../components/sponsor"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Image from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { Heading, jsx, Box, Card, Grid, Text } from "theme-ui"
 
 const BlogIndex = ({ data, location }) => {
@@ -40,11 +40,12 @@ const BlogIndex = ({ data, location }) => {
       <Grid width={[128, null, 256]} gap={16}>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
-          const img = node.frontmatter.featuredImage?.childImageSharp.fluid
+          const img =
+            node.frontmatter.featuredImage?.childImageSharp.gatsbyImageData
           return (
             <Card key={node.fields.slug} sx={{ bg: "white" }}>
               <GatsbyLink to={node.fields.slug}>
-                <Image fluid={img} />
+                <GatsbyImage image={img} alt="" />
               </GatsbyLink>
               <Text p={16} sx={{ display: "block" }}>
                 <GatsbyLink sx={{ color: `primary` }} to={node.fields.slug}>
@@ -89,9 +90,7 @@ export const pageQuery = graphql`
             description
             featuredImage {
               childImageSharp {
-                fluid(maxWidth: 480, maxHeight: 320) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED, width: 480, height: 320)
               }
             }
           }

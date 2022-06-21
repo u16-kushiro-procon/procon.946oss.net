@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { Heading, Button, Link, Grid, Box } from "theme-ui"
 
 const About = () => {
@@ -8,9 +8,7 @@ const About = () => {
     query AboutQuery {
       avatar: file(absolutePath: { regex: "/about.jpg/" }) {
         childImageSharp {
-          fluid(maxWidth: 380, maxHeight: 270) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(layout: CONSTRAINED)
         }
       }
     }
@@ -56,7 +54,10 @@ const About = () => {
           */}
         </Box>
         <Box>
-          <Image fluid={data.avatar.childImageSharp.fluid} alt="" />
+          <GatsbyImage
+            image={data.avatar.childImageSharp.gatsbyImageData}
+            alt=""
+          />
         </Box>
       </Grid>
     </>
