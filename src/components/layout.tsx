@@ -35,7 +35,7 @@ const Layout = ({ location, title, children }) => {
                 display: "block",
               }}
             >
-              2021/10/31 オンライン開催
+              2022/10/9 オンライン開催
             </Text>
           )}
         </Container>
