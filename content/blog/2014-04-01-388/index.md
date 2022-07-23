@@ -18,4 +18,4 @@ date: 2014-04-01
 なお、4/15 19:00 より釧路市民活動センターわっとにて第 1 回実行委員会（キックオフ）を行う予定です。
 たくさんのみなさんにご参加いただき、今年も素晴らしいコンテストになることを願っています。
 
-<a href="http://procon.kushi.ro/wp-content/uploads/2014/04/logo.png"><img class="aligncenter size-medium wp-image-391" alt="logo" src="http://procon.kushi.ro/wp-content/uploads/2014/04/logo-300x87.png" width="300" height="87" /></a>
+<!--<a href="http://procon.kushi.ro/wp-content/uploads/2014/04/logo.png"><img class="aligncenter size-medium wp-image-391" alt="logo" src="http://procon.kushi.ro/wp-content/uploads/2014/04/logo-300x87.png" width="300" height="87" /></a>-->
