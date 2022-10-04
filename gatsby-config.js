@@ -11,10 +11,8 @@ module.exports = {
       twitter: `946procon`,
     },
     sponsors: [
-      { name: `NPO法人 ITジュニア育成交流協会` },
       { name: `釧路ITクラスター推進協会` },
       { name: `サイボウズ（株）` },
-      { name: `（株）ディスカバリー` },
     ],
   },
   plugins: [
