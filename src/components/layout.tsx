@@ -35,9 +35,7 @@ const Layout = ({ location, title, children }) => {
                 display: "block",
               }}
             >
-              2022/10/9 釧路市生涯学習センター
-              <br />
-              まなぼっと幣舞
+              2022/10/9 オンライン開催
             </Text>
           )}
         </Container>
