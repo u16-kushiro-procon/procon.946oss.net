@@ -1,6 +1,6 @@
 ---
 title: 2021年大会が開催されました
-date: "2020-11-17"
+date: "2021-11-17"
 featuredImage: studio.jpg
 ---
 
