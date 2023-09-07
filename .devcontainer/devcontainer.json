@@ -3,14 +3,18 @@
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
-      "VARIANT": "16"
+      "VARIANT": "18"
     }
   },
-  "settings": {
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "dotfiles.repository": "riaf/dotfiles"
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "dotfiles.repository": "riaf/dotfiles"
+      },
+      "extensions": ["dbaeumer.vscode-eslint", "graphql.vscode-graphql"]
+    }
   },
-  "extensions": ["dbaeumer.vscode-eslint", "graphql.vscode-graphql"],
   "postCreateCommand": "npm ci",
   "remoteUser": "node"
 }
