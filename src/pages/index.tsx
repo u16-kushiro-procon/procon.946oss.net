@@ -17,7 +17,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="2022年大会" />
+      <SEO title="2023年大会" />
       <About />
 
       <Box bg="white" px={[32, null, 48]} py={32} marginY={16}>
