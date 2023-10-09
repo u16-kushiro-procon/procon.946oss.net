@@ -41,17 +41,17 @@ const About = () => {
                 参加応募する
               </Button>
             </p>
-            /*
-          <p>
-            <Button
-              href="https://youtu.be/xNRs7ZhPAt0"
-              as={Link}
-              sx={{ py: 16, px: 48, fontSize: 3 }}
-            >
-              オンライン観戦 (YouTube Live)
-            </Button>
-          </p>
-          */
+          }
+          {
+            <p>
+              <Button
+                href="https://youtu.be/YQEMoMKHgHM"
+                as={Link}
+                sx={{ py: 16, px: 48, fontSize: 3 }}
+              >
+                オンライン観戦 (YouTube Live)
+              </Button>
+            </p>
           }
         </Box>
         <Box>
