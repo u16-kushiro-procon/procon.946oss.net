@@ -35,7 +35,7 @@ const Layout = ({ location, title, children }) => {
                 display: "block",
               }}
             >
-              2023/10/9 at Digital Station デジラポ
+              2024/10/13 at Digital Station デジラポ
             </Text>
           )}
         </Container>

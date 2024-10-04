@@ -17,7 +17,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="2023年大会" />
+      <SEO title="2024年大会" />
       <About />
 
       <Box bg="white" px={[32, null, 48]} py={32} marginY={16}>
@@ -25,9 +25,9 @@ const BlogIndex = ({ data, location }) => {
         <p>
           プログラミングを一度も経験したことのない人でも全く問題ありません！
           <br />
-          「事前講習会」にご参加ください。
+          はじめての人でも，要望があれば講習会等を行いますので，お気軽にお問い合わせください。
         </p>
-        <p sx={{ fontWeight: "bold" }}>
+        {/* <p sx={{ fontWeight: "bold" }}>
           2023年 講習会のご案内
           <br />
           9月23日(土) 9:00 ~ 12:00 デジラポ
@@ -37,7 +37,7 @@ const BlogIndex = ({ data, location }) => {
           平日 17:00 ~ 21:00 k-Hack
         </p>
         <a href="/2023-09-21-2253-teach-info/">詳細はこちら</a>
-        {/* <p sx={{ fontWeight: "bold" }}>
+        <p sx={{ fontWeight: "bold" }}>
           新型コロナウイルス感染症対策のため、申込者に個別でオンラインでの講習を予定しております。
           <br />
           詳しくは、申し込み後の案内をご確認ください。
@@ -69,7 +69,7 @@ const BlogIndex = ({ data, location }) => {
         })}
       </Grid>
 
-      <Sponsor />
+      {/* <Sponsor /> */}
       <Staff />
     </Layout>
   )
