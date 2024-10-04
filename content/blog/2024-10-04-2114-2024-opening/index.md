@@ -17,3 +17,7 @@ featuredImage: 2024poster.png
 デジラポ （〒 085-0016 北海道釧路市錦町５丁目 3− ３ 三ッ輪ビル 1F）
 
 公式ホームページ: [https://digirapo.jp/](https://digirapo.jp/)
+
+<br>
+
+![2024年U-16プロコン釧路大会のポスター](./2024poster.png)
