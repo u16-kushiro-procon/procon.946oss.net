@@ -11,7 +11,7 @@ module.exports = {
       twitter: `946procon`,
     },
     sponsors: [
-      { name: `釧路ITクラスター推進協会` },
+      { name: `釧路地域DX推進協会` },
       { name: `サイボウズ（株）` },
     ],
   },
