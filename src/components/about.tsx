@@ -42,17 +42,17 @@ const About = () => {
               </Button>
             </p>
           }
-          {/*
+          {
             <p>
               <Button
-                href="https://youtu.be/YQEMoMKHgHM"
+                href="https://www.youtube.com/live/-i3eBQ9hwZY"
                 as={Link}
                 sx={{ py: 16, px: 48, fontSize: 3 }}
               >
                 オンライン観戦 (YouTube Live)
               </Button>
             </p>
-          */}
+          }
         </Box>
         <Box>
           <GatsbyImage
