@@ -10,6 +10,12 @@ featuredImage: unknown_poster.png
 
 ふるってご参加くださいませ。
 
+## 開催概要
+
+### 大会名
+
+第 11 回 U-16 プログラミングコンテスト北海道大会
+
 ### 開催日時
 
 2024年 11月 2日 (日)
@@ -19,3 +25,7 @@ featuredImage: unknown_poster.png
 デジラポ (〒 085-0016 北海道釧路市錦町5丁目 3−3 三ツ輪ビル 1F)
 
 公式HP: [https://digirapo.jp/](https://digirapo.jp/)
+
+### 主催
+
+U-16 プログラミングコンテスト釧路大会実行委員会
