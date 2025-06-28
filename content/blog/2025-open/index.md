@@ -1,6 +1,6 @@
 ---
 title: 第13回 U-16プログラミングコンテスト 釧路大会の開催を宣言します
-date: "2025-5-29"
+date: "2025-05-29"
 featuredImage: unknown_poster.png
 ---
 
