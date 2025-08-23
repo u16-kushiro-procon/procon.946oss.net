@@ -10,10 +10,7 @@ module.exports = {
     social: {
       twitter: `946procon`,
     },
-    sponsors: [
-      { name: `釧路地域DX推進協会` },
-      { name: `サイボウズ（株）` },
-    ],
+    sponsors: [{ name: "none" }],
   },
   plugins: [
     `gatsby-plugin-typescript`,
