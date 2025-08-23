@@ -17,7 +17,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="2024年大会" />
+      <SEO title="2025年大会" />
       <About />
 
       <Box bg="white" px={[32, null, 48]} py={32} marginY={16}>
@@ -25,7 +25,10 @@ const BlogIndex = ({ data, location }) => {
         <p>
           プログラミングを一度も経験したことのない人でも全く問題ありません！
           <br />
-          はじめての人でも，要望があれば講習会等を行いますので，お気軽にお問い合わせください。
+          今年度は対面での講習会の実施，また要望があればオンラインでの講習会の実施も予定しておりますので，お気軽にお問い合わせください．
+        </p>
+        <p>
+          対面での講習会の日程につきましては，準備が整い次第公表いたします．
         </p>
         {/* <p sx={{ fontWeight: "bold" }}>
           2023年 講習会のご案内
@@ -69,7 +72,7 @@ const BlogIndex = ({ data, location }) => {
         })}
       </Grid>
 
-      <Sponsor />
+      {/*<Sponsor />*/}
       <Staff />
     </Layout>
   )
