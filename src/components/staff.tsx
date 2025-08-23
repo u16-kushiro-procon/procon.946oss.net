@@ -5,7 +5,10 @@ import { Heading, Grid, Text, Card, Image } from "theme-ui"
 const Staff = () => {
   const data = useStaticQuery(graphql`
     query StaffQuery {
-      allStaffYaml(sort: { fields: priority, order: ASC }) {
+      allStaffYaml(
+        sort: { fields: priority, order: ASC }
+        filter: { visible: { eq: true } }
+      ) {
         edges {
           node {
             name
