@@ -72,7 +72,7 @@ const BlogIndex = ({ data, location }) => {
         })}
       </Grid>
 
-      {/*<Sponsor />*/}
+      <Sponsor />
       <Staff />
     </Layout>
   )

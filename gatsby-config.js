@@ -10,7 +10,7 @@ module.exports = {
     social: {
       twitter: `946procon`,
     },
-    sponsors: [{ name: "none" }],
+    sponsors: [{ name: `サイボウズ（株）` }],
   },
   plugins: [
     `gatsby-plugin-typescript`,
