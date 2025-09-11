@@ -34,7 +34,7 @@ const About = () => {
           {
             <p>
               <Button
-                href="https://forms.gle/GU9xGq7Jr9YRXpqG6"
+                href="https://forms.gle/8uL2EqynnB71ht2P7"
                 as={Link}
                 sx={{ py: 16, px: 48, fontSize: 3 }}
               >
@@ -42,7 +42,7 @@ const About = () => {
               </Button>
             </p>
           }
-          {
+          {/*
             <p>
               <Button
                 href="https://www.youtube.com/live/-i3eBQ9hwZY"
@@ -52,7 +52,7 @@ const About = () => {
                 オンライン観戦 (YouTube Live)
               </Button>
             </p>
-          }
+          */}
         </Box>
         <Box>
           <GatsbyImage
