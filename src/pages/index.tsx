@@ -30,7 +30,7 @@ const BlogIndex = ({ data, location }) => {
           毎週火・水・金曜日は，Digital Station デジラポ
           にて講習会を開催します。
           <ul>
-            <li>火曜日 17:30~18:30</li>
+            <li>火曜日 17:00~18:30</li>
             <li>水曜日 17:30~18:30</li>
             <li>金曜日 15:30~18:30</li>
           </ul>
