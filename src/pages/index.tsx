@@ -23,6 +23,10 @@ const BlogIndex = ({ data, location }) => {
       <Box bg="white" px={[32, null, 48]} py={32} marginY={16}>
         <Heading as="h2">プログラミング講習会のご案内</Heading>
         <p style={{ fontWeight: "bold" }}>
+          2025/10/11追記：わっとで行う講習会会場までの道のりを明記しました．
+          <a href="/2025-teach/">こちら</a>をご覧ください．
+        </p>
+        <p style={{ fontWeight: "bold" }}>
           2025/10/09追記：10月11日(土)～10月13日(月)実施分の日時が変更となっています．
         </p>
         <p>大変お待たせしました！オフライン講習会のご案内です。</p>
