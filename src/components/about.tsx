@@ -31,7 +31,7 @@ const About = () => {
           <p>
             北海道では、旭川大会（全道大会）、帯広大会、札幌大会も発足し、ますます注目されているイベントとなっています。
           </p>
-          {
+          {/* {
             <p>
               <Button
                 href="https://forms.gle/8uL2EqynnB71ht2P7"
@@ -41,18 +41,18 @@ const About = () => {
                 参加応募する
               </Button>
             </p>
-          }
-          {/*
-            <p>
-              <Button
-                href="https://www.youtube.com/live/-i3eBQ9hwZY"
-                as={Link}
-                sx={{ py: 16, px: 48, fontSize: 3 }}
-              >
-                オンライン観戦 (YouTube Live)
-              </Button>
-            </p>
-          */}
+          } */}
+          
+          <p>
+            <Button
+              href="https://youtube.com/live/MB2vMCABZMQ"
+              as={Link}
+              sx={{ py: 16, px: 48, fontSize: 3 }}
+            >
+              オンライン観戦 (YouTube Live)
+            </Button>
+          </p>
+         
         </Box>
         <Box>
           <GatsbyImage
