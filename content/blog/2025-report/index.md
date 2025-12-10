@@ -21,7 +21,7 @@ https://youtube.com/live/MB2vMCABZMQ
 ### 2025 第 13 回 U-16 プログラミングコンテスト釧路大会
 
 開催日：2025 年 11 月 2 日（日曜日）
-開催場所：Digial Station デジラポ
+開催場所：Digial Station デジラポ (〒 085-0016 北海道釧路市錦町 5 丁目 3−3 三ツ輪ビル 1F)
 
 #### 主催
 
