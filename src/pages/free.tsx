@@ -33,9 +33,6 @@ const FreePage = ({ data, location }) => {
           </strong>
           北海道大会の作品部門へ応募したい方は、釧路大会がファーストステップになりますので、ぜひ応募してみてください。
         </p>
-        <p>
-          （このようになった経緯として、北海道大会での審査負荷を低減する目的があります）
-        </p>
       </Box>
 
       <Heading as="h2" paddingTop={32} paddingBottom={16}>
