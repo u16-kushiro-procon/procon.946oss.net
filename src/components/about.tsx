@@ -55,7 +55,7 @@ const About = () => {
                 gridColumn: "span 2",
               }}
             >
-              参加応募する (後日開放)
+              参加応募する (8月上旬に開放)
             </Button>
           </Grid>
           {<p></p>}
