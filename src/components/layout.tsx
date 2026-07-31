@@ -35,7 +35,7 @@ const Layout = ({ location, title, children }) => {
                 display: "block",
               }}
             >
-              2025/11/2 at Digital Station デジラポ
+              2026/10/25 at Digital Station デジラポ
             </Text>
           )}
         </Container>
@@ -44,6 +44,12 @@ const Layout = ({ location, title, children }) => {
         <Flex as="nav" sx={{ flexWrap: "wrap", paddingY: 16 }}>
           <NavLink href="/#about" sx={{ flex: "1 1 auto" }}>
             プロコンとは？
+          </NavLink>
+          <NavLink href="/comp" sx={{ flex: "1 1 auto" }}>
+            競技部門
+          </NavLink>
+          <NavLink href="/free" sx={{ flex: "1 1 auto" }}>
+            自由部門
           </NavLink>
           <NavLink href="/#blog" sx={{ flex: "1 1 auto" }}>
             お知らせ

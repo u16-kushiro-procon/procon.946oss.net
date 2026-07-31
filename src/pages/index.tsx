@@ -17,7 +17,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="2025年大会" />
+      <SEO title="2026年大会" />
       <About />
 
       {/* <Box bg="white" px={[32, null, 48]} py={32} marginY={16}>
@@ -49,7 +49,7 @@ const BlogIndex = ({ data, location }) => {
         })}
       </Grid>
 
-      <Sponsor />
+      {/* <Sponsor /> */}
       <Staff />
     </Layout>
   )
