@@ -44,18 +44,16 @@ const About = () => {
             </Button>
 
             <Button
-              // href="https://forms.gle/8uL2EqynnB71ht2P7"
+              href="https://forms.gle/e62HLFWHKuZQYJgFA"
               as={Link}
-              disabled={true}
               sx={{
                 py: 16,
                 px: 48,
                 fontSize: 3,
-                backgroundColor: "gray",
                 gridColumn: "span 2",
               }}
             >
-              参加応募する (8月上旬に開放)
+              参加応募する
             </Button>
           </Grid>
           {<p></p>}
