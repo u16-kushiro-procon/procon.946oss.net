@@ -20,9 +20,17 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="2026年大会" />
       <About />
 
-      {/* <Box bg="white" px={[32, null, 48]} py={32} marginY={16}>
+      <Box bg="white" px={[32, null, 48]} py={32} marginY={16}>
         <Heading as="h2">プログラミング講習会のご案内</Heading>
-      </Box> */}
+        <p>
+          8月18日(火)から，Digital Station
+          デジラポにて競技部門向け講習会を開催します！
+        </p>
+        <p>
+          詳細は，<a href="/2026-02-lecture">競技部門向け講習会のご案内</a>
+          をご覧ください！
+        </p>
+      </Box>
 
       <Heading id="blog" as="h2" paddingTop={32} paddingBottom={16}>
         お知らせ
