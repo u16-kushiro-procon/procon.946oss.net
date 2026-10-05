@@ -36,7 +36,7 @@ featuredImage: poster.png
 
 Digital Station デジラポ (〒 085-0016 北海道釧路市錦町 5 丁目 3−3 三ツ輪ビル 1F)
 
-公式 HP: [https://digirapo.jp/](https://digirapo.jp/)
+公式 HP: [https://sgrum.com/web/digirapo/](https://sgrum.com/web/digirapo/)
 
 ### 主催
 
