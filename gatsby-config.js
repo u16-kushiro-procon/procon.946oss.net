@@ -11,10 +11,11 @@ module.exports = {
       twitter: `946procon`,
     },
     sponsors: [
-      { name: `サイボウズ（株）` },
-      { name: `釧路地域DX推進協会` },
-      { name: `NPO 法人 IT ジュニア育成交流協会 および法人会員様` },
+      { name: `株式会社Hokkaido Design Code` },
+      { name: `株式会社大起工業` },
+      { name: `一般社団法人 釧路地域DX推進協会` },
     ],
+    nominals: [{ name: `釧路市教育委員会` }],
   },
   plugins: [
     `gatsby-plugin-typescript`,

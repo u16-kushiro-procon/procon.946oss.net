@@ -22,7 +22,9 @@ const BlogIndex = ({ data, location }) => {
 
       <Box bg="white" px={[32, null, 48]} py={32} marginY={16}>
         <Heading as="h2">プログラミング講習会のご案内</Heading>
-        <p>9/28追記：29日(火)，10月1日(木)の15:30-17:30にも講習会を実施します．</p>
+        <p>
+          9/28追記：29日(火)，10月1日(木)の15:30-17:30にも講習会を実施します．
+        </p>
         <p>9/2追記：9月分実施の講習会日時を追記しました．</p>
         <p>
           8月18日(火)から，Digital Station
@@ -59,7 +61,7 @@ const BlogIndex = ({ data, location }) => {
         })}
       </Grid>
 
-      {/* <Sponsor /> */}
+      <Sponsor />
       <Staff />
     </Layout>
   )
