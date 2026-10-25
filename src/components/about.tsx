@@ -43,7 +43,7 @@ const About = () => {
               自由部門について
             </Button>
 
-            <Button
+            {/* <Button
               href="https://forms.gle/e62HLFWHKuZQYJgFA"
               as={Link}
               sx={{
@@ -54,19 +54,19 @@ const About = () => {
               }}
             >
               参加応募する
-            </Button>
+            </Button> */}
           </Grid>
           {<p></p>}
 
-          {/* <p>
+          <p>
             <Button
-              href="https://youtube.com/live/MB2vMCABZMQ"
+              href="https://youtube.com/live/Bw36RKKikj0"
               as={Link}
               sx={{ py: 16, px: 48, fontSize: 3 }}
             >
               オンライン観戦 (YouTube Live)
             </Button>
-          </p> */}
+          </p>
         </Box>
         <Box>
           <GatsbyImage
